@@ -1,0 +1,177 @@
+body {
+    background-color: lightgray;
+    background-image: linear-gradient(to bottom, lightgray, gray);
+    color: black;
+}
+
+
+header {
+    background-color: lightskyblue;
+    background-image: linear-gradient(to bottom, #FFFFFF, lightskyblue);
+    color: palevioletred;
+    height: 120px;
+    text-align: center;
+    padding-top: 30px;
+    padding-left: 3em;
+    
+}
+
+header a {
+    text-decoration: none;
+}
+
+ header a:link {
+    
+    color: purple;
+}
+
+ header a:visited {
+    
+    color: purple;
+}
+
+ header a:hover {
+   
+    color: palevioletred;
+}
+
+nav {
+    font-weight: bold;
+    font-size: 120%;
+    padding: 1.5em;
+    float: left;
+    width: 160px;
+
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding-left: 0;
+    font-size: 1.2em;
+}
+
+nav a:link {
+    color: purple;
+}
+
+nav a:visited {
+    color: purple;
+}
+
+nav a:hover {
+    color: palevioletred;
+}
+
+nav a {
+    text-decoration: none;
+    
+}
+
+h2 {
+    color: purple;
+    font-family: Georgia, 'Times New Roman',  serif;
+    text-shadow: 1px 1px #CCCCCC;
+
+}
+
+
+h1 {
+    margin-bottom: 0;
+    font-family: Georgia, 'Times New Roman', serif;
+    margin-top: 0;
+    font-size: 3em;
+    letter-spacing: 0.25em;
+}
+
+
+
+footer {
+    background-color:lavender;
+    margin-left: 190px;
+    font-size: 75%;
+    font-style: italic;
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', serif;
+    padding: 2em;
+}
+
+
+
+#wrapper {
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: mintcream;
+    background-image: linear-gradient(to bottom, #FFFFFF, lightskyblue);
+    min-width: 960px;
+    max-width: 2048px;
+    box-shadow: 3px 3px 3px #333333;
+    border-style: solid;
+    border-color: #000033;
+    border-width: 1px;
+}
+
+main {
+    background-color: mintcream;
+    background-image: linear-gradient(to bottom, #FFFFFF, lightskyblue);
+    margin-left: 190px;
+    overflow: auto;
+    padding: 1px 20px 20px 30px;
+    display: block;
+
+}
+
+
+* {
+    box-sizing: border-box;
+}
+
+section {
+    float: left;
+    width: 33%;
+    padding-left: 2em;
+    padding-right: 2em;
+}
+
+table {
+    border: 2px solid palevioletred;
+    border-collapse: collapse;
+}
+
+td {
+    padding: 0.5em;
+    border: 2px solid palevioletred;
+    text-align: center;
+}
+
+tr:nth-of-type(odd) {
+    background-color: lavenderblush;
+}
+
+tr:nth-of-type(even) {
+    background-color: lightcyan;
+
+}
+
+label {
+    float:left;
+    display: block;
+    text-align: right;
+    width: 140px;
+    padding-right: 5px;
+}
+
+input {
+    display: block;
+    margin-bottom: 20px;
+}
+
+textarea {
+    display: block;
+    margin-bottom: 20px;
+}
+
+input[type="submit"] {
+    margin-left: 140px;
+}
